@@ -1,1 +1,1 @@
-web:gunicorn script:keycash
+web:gunicorn script:app
