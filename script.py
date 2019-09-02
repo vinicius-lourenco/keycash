@@ -25,6 +25,5 @@ def result():
         result = round(loaded_model.predict(result)[0],0)
     return render_template("resultado.html", prediction=result)
 
-
 if __name__ == '__main__':
     app.run()
